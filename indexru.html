@@ -1,124 +1,156 @@
-<!DOCTYPE html>
+<br/>
+<br/>
+
 <html>
-  <h1 style="text-align:center" style="font-size: 10px">РУССКИЙ  תמונת מצב  <button onClick="window.location.reload();"><img height="15px" width="16px" src="img/refesh.png" /></button></h1>
-  <head>
-    <!--title>jquery.rss example</title-->
-    <script src="lib/jquery-1.6.4.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
-    <script src="src/jquery.rss.js"></script>
-    <script>
-      jQuery(function($) {
-        $("#rss-feeds").rss("https://9tv.co.il/rss/news/news_4.xml", {
-          limit: 5,
-          effect: 'slideFastSynced'
-        })
-      })
-    </script>
-    <script>
-        jQuery(function($) {
-          $("#rss-feeds2").rss("https://tinyurl.com/y4ocvrgn", {
-            limit: 5,
-            effect: 'slideFastSynced'
-          })
-        })
-      </script>
-      <script>
-          jQuery(function($) {
-            $("#rss-feeds3").rss("https://tinyurl.com/y2xofmxa", {
-              limit: 5,
-              effect: 'slideFastSynced'
-            })
-          })
+
+<head>
+    <script type="text/javascript">
+        var links = new Array();
+        links[0] = "/indexru/news1.html";
+        links[1] = "/indexru/news2.html";
+        links[2] = "/indexru/news3.html";
+        links[3] = "/indexru/news4.html";
+        links[4] = "/indexru/news5.html";
+        links[5] = "/indexru/news6.html";
+        links[6] = "/indexru/news7.html";
+        links[7] = "/indexru/news8.html";
+        links[8] = "/indexru/news9.html";
+        links[9] = "/indexru/news10.html";
+        links[10] = "/indexru/news11.html";
+        links[11] = "/indexru/news12.html";
+        links[12] = "/indexru/news13.html";
+        links[13] = "/indexru/news14.html";
+        links[14] = "/indexru/news15.html";
+        links[15] = "/indexru/news16.html";
+        links[16] = "/indexru/news17.html";
+        links[17] = "/indexru/news18.html";
+        links[18] = "/indexru/news19.html";
+        links[19] = "/indexru/news20.html";
+        links[20] = "/indexru/news21.html";
+        links[21] = "/indexru/news22.html";
+        links[22] = "/indexru/news23.html";
+        links[23] = "/indexru/news24.html";
+        links[24] = "/indexru/news25.html";
+        links[25] = "/indexru/news26.html";
+        links[26] = "/indexru/news27.html";
+        links[27] = "/indexru/news28.html";
+        links[28] = "/indexru/news29.html";
+        links[29] = "/indexru/news30.html";
+        links[30] = "/indexru/news31.html";
+        links[31] = "/indexru/news31.html";
+        links[32] = "/indexru/news32.html";
+        links[33] = "/indexru/news33.html";
+        links[34] = "/indexru/news34.html";
+        links[35] = "/indexru/news35.html";
+        links[36] = "/indexru/news36.html";
+        links[37] = "/indexru/news37.html";
+        links[38] = "/indexru/news38.html";
+        links[39] = "/indexru/news39.html";
+        links[40] = "/indexru/news40.html";
+        links[41] = "/indexru/news41.html";
+        links[42] = "/indexru/news42.html";
+        links[43] = "/indexru/news43.html";
+        links[44] = "/indexru/news44.html";
+        links[45] = "/indexru/news45.html";
+        links[46] = "/indexru/news46.html";
+        links[47] = "/indexru/news47.html";
+        links[48] = "/indexru/news48.html";
+        links[49] = "/indexru/news49.html";
+        links[50] = "/indexru/news50.html";
+        links[51] = "/indexru/news51.html";
+        function openLink() {
+          // Chooses a random link:
+          var i = Math.floor(Math.random() * links.length);
+          // Directs the browser to the chosen target:
+          parent.location = links[i];
+          return false;
+        }
         </script>
-         <script>
-            jQuery(function($) {
-              $("#rss-feeds4").rss("https://www.vesty.co.il/3rdparty/mobile/rss/vesty/13229/", {
-                limit: 5,
-                effect: 'slideFastSynced'
-              })
-            })
-          </script>
-           <script>
-              jQuery(function($) {
-                $("#rss-feeds5").rss("https://israelinfo.co.il/xml/news_politics.xml", {
-                  limit: 5,
-                  effect: 'slideFastSynced'
-                })
-              })
-            </script>
-             <script>
-                jQuery(function($) {
-                  $("#rss-feeds6").rss("https://nashe.orbita.co.il/rss", {
-                    limit: 5,
-                    effect: 'slideFastSynced'
-                  })
-                })
-              </script>
-               <script>
-                  jQuery(function($) {
-                    $("#rss-feeds7").rss("https://www.mk.ru/rss/news/index.xml", {
-                      limit: 5,
-                      effect: 'slideFastSynced'
-                    })
-                  })
-                </script>
-    <style type="text/css">
-      body {
-        font-family: Arial, Verdana, Trebuchet MS, Helvetica, lucida grande, "sans-serif";
-        font-size: 14px;
-      }
-      body > div {
-        margin: 0px auto;
-        width: 100%;
-      }
-      a {
-        color: #37D;
-        text-decoration: none;
-      }
-      a:hover {
-        text-decoration: underline;
-      }
-      ul {
-        list-style-type: none;
-        margin: 0px;
-        padding: 0px;
-      }
-      h1 {
-        font-family: Arial, Verdana, Trebuchet MS, Helvetica, lucida grande, "sans-serif";
-        font-size: 20px;
-      }
-      li {
-        padding-top: 5px;
-        padding-bottom: 5px;
-        border-top: 0px dashed #AAA;
-        background-color: #EFEFEF;
-        text-align: left;
-      }
-      li:first-child {
-        border-top: none;
-      }
-      li:nth-child(2n) {
-        background-color: white;
-      }
-    </style>
-  </head>
-  <body>
-    <div>
-       <h1  style="text-align:left"><img border="0" src="img/9.png" /></h1>
-      <div id="rss-feeds"></div>
-      <h1  style="text-align:left"><img border="0" src="img/NEWS RU.png" /></h1>
-      <div id="rss-feeds2"></div>
-      <h1  style="text-align:left"><img border="0" src="img/ISRAELAND.png" /></h1>
-      <div id="rss-feeds3"></div>
-      <h1  style="text-align:left"><img border="0" src="img/betch.png" /></h1>
-      <div id="rss-feeds4"></div>
-      <!--h1  style="text-align:left"><img border="0" src="https://1.bp.blogspot.com/-pj8bu33Jwi4/XOZ63sU5chI/AAAAAAAAFBU/vH_3WQsTgV86Tle-sZJfKOI1Jl0BuXkpQCLcBGAs/s320/israelinfo.png" /></h1-->
-      <!--div id="rss-feeds5"></div-->
-      <h1  style="text-align:left"><img border="0" src="img/HAWE.png" /></h1>
-      <div id="rss-feeds6"></div>
-      <h1  style="text-align:left"><img border="0" src="img/MKRU.png" /></h1>
-      <div id="rss-feeds7"></div>
-      <h1  style="text-align:left"><img border="0" src="img/blank.png" /></h1>
-    </div>
-  </body>
+
+<!--script type="text/javascript">
+
+var image1=new Image()
+
+image1.src="https://goo.gl/V1rBxy"
+
+var image2=new Image()
+
+image2.src="https://goo.gl/pVqKFQ"
+
+var image3=new Image()
+
+image3.src="https://goo.gl/TVwqQ8"
+
+var image4=new Image()
+
+image4.src="https://goo.gl/ZhzkwU"
+
+var image5=new Image()
+
+image5.src="https://goo.gl/PLxLzl"
+
+var image6=new Image()
+
+image6.src="https://goo.gl/PF2M0r"
+
+var image7=new Image()
+
+image7.src="https://goo.gl/dcNygo"
+
+var image8=new Image()
+
+image8.src="https://goo.gl/m5AVGn"
+
+var image9=new Image()
+
+image9.src="https://goo.gl/lBkhlo"
+
+var image10=new Image()
+
+image10.src="https://goo.gl/PzmT8W"
+
+</script-->
+
+</head>
+
+<body onload="openLink();">
+
+<!--img src="https://goo.gl/5P1vtp" name="slide" width="100%" height="390"-->
+
+<!--script>
+
+//variable that will increment through the images
+
+var step=1
+
+function slideit(){
+
+//if browser does not support the image object, exit.
+
+if (!document.images)
+
+return
+
+document.images.slide.src=eval("image"+step+".src")
+
+if (step<10)
+
+step++
+
+else
+
+step=1
+
+//call function "slideit()" every 1.0 seconds
+
+setTimeout("slideit()",300)
+
+}
+
+slideit()
+
+</script-->
+
+</body>
+
 </html>

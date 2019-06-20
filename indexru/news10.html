@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <h1 style="text-align:center" style="font-size: 10px">РУССКИЙ  תמונת מצב  <button onClick="window.location.reload();"><img height="15px" width="16px" src="img/refesh.png" /></button></h1>
+  <head>
+    <!--title>jquery.rss example</title-->
+    <script src="lib/jquery-1.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
+    <script src="src/jquery.rss.js"></script>
+    <script>
+      jQuery(function($) {
+        $("#rss-feeds").rss("https://9tv.co.il/rss/news/news_4.xml", {
+          limit: 5,
+          effect: 'slideFastSynced'
+        })
+      })
+    </script>
+    <script>
+        jQuery(function($) {
+          $("#rss-feeds2").rss("https://tinyurl.com/y4ocvrgn", {
+            limit: 5,
+            effect: 'slideFastSynced'
+          })
+        })
+      </script>
+      <script>
+          jQuery(function($) {
+            $("#rss-feeds3").rss("https://tinyurl.com/y2xofmxa", {
+              limit: 5,
+              effect: 'slideFastSynced'
+            })
+          })
+        </script>
+         <script>
+            jQuery(function($) {
+              $("#rss-feeds4").rss("https://www.vesty.co.il/3rdparty/mobile/rss/vesty/13229/", {
+                limit: 5,
+                effect: 'slideFastSynced'
+              })
+            })
+          </script>
+           <script>
+              jQuery(function($) {
+                $("#rss-feeds5").rss("https://israelinfo.co.il/xml/news_politics.xml", {
+                  limit: 5,
+                  effect: 'slideFastSynced'
+                })
+              })
+            </script>
+             <script>
+                jQuery(function($) {
+                  $("#rss-feeds6").rss("https://nashe.orbita.co.il/rss", {
+                    limit: 5,
+                    effect: 'slideFastSynced'
+                  })
+                })
+              </script>
+               <script>
+                  jQuery(function($) {
+                    $("#rss-feeds7").rss("https://www.mk.ru/rss/news/index.xml", {
+                      limit: 5,
+                      effect: 'slideFastSynced'
+                    })
+                  })
+                </script>
+    <style type="text/css">
+      body {
+        font-family: Arial, Verdana, Trebuchet MS, Helvetica, lucida grande, "sans-serif";
+        font-size: 14px;
+      }
+      body > div {
+        margin: 0px auto;
+        width: 100%;
+      }
+      a {
+        color: #37D;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+      }
+      h1 {
+        font-family: Arial, Verdana, Trebuchet MS, Helvetica, lucida grande, "sans-serif";
+        font-size: 20px;
+      }
+      li {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-top: 0px dashed #AAA;
+        background-color: #EFEFEF;
+        text-align: left;
+      }
+      li:first-child {
+        border-top: none;
+      }
+      li:nth-child(2n) {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+       <h1  style="text-align:left"><img border="0" src="img/9.png" /></h1>
+      <div id="rss-feeds"></div>
+      <h1  style="text-align:left"><img border="0" src="img/NEWS RU.png" /></h1>
+      <div id="rss-feeds2"></div>
+      <h1  style="text-align:left"><img border="0" src="img/ISRAELAND.png" /></h1>
+      <div id="rss-feeds3"></div>
+      <h1  style="text-align:left"><img border="0" src="img/betch.png" /></h1>
+      <div id="rss-feeds4"></div>
+      <!--h1  style="text-align:left"><img border="0" src="https://1.bp.blogspot.com/-pj8bu33Jwi4/XOZ63sU5chI/AAAAAAAAFBU/vH_3WQsTgV86Tle-sZJfKOI1Jl0BuXkpQCLcBGAs/s320/israelinfo.png" /></h1-->
+      <!--div id="rss-feeds5"></div-->
+      <h1  style="text-align:left"><img border="0" src="img/HAWE.png" /></h1>
+      <div id="rss-feeds6"></div>
+      <h1  style="text-align:left"><img border="0" src="img/MKRU.png" /></h1>
+      <div id="rss-feeds7"></div>
+      <h1  style="text-align:left"><img border="0" src="img/blank.png" /></h1>
+    </div>
+  </body>
+</html>
